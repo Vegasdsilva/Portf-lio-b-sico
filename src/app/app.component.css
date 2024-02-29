@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-style:italic ;
+
+}
+
+.info a {
+  cursor: pointer;
+}
+
+.info a:hover {
+  color: blue
+}
+
+.second-panel {
+  background-color: black;
+  color: white;
+
+}
